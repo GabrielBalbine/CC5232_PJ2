@@ -108,7 +108,13 @@ Crie o banco de dados: CREATE DATABASE cod_armas; (no MySQL Workbench ou termina
 
 Execute o script SQL: Importe o arquivo query.sql para o seu banco de dados.
 
-Insira os dados: Execute os comandos INSERT presentes no arquivo di_geras.sql.
+Insira os dados: Execute os comandos INSERT presentes no arquivo query.sql. (dados base, não aleatórios)
+
+Geração de dados aleatórios: Importe o arquivo di_geras.py e execute-o para gerar dados aleatórios para o Banco de Dados.
+
+Consultas interessantes: Utilize como referência o arquivo interesting_queries.md para realizar algumas consultas que nós julgamos interessantes.
+
+Consulte a seu critério: Sinta-se a vontade também para realizar outros tipos de consulta no Banco de Dados.
 
 ## Exemplos de Consultas (SQL)
 
@@ -135,8 +141,7 @@ SELECT nome FROM Arma WHERE pais_de_origem = 'Estados Unidos';
 
 ## Observações
 
-Este projeto é um exemplo simplificado e pode ser expandido com mais atributos e funcionalidades. Como por exemplo munições, dano, cadência, carregadores, etc.
-
+Este projeto supre a uma boa parte das armas do jogo mais recente da franquia Call of Duty (Black OPS 6) e tende a ser o mais fidedigno da franquia possível. Tenha em mente que os dados gerados aleatoriamente tendem a não ter uma perpendicularidade com a realidade, então não se assuste com os resultados.
 
 ## Contribuições
 
