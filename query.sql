@@ -20,7 +20,7 @@ CREATE TABLE Arma (
     nome VARCHAR(255),
     tipo_arma_id INT,
     fabricante_arma_id INT,
-    pais_de_origem VARCHAR(255), -- Adicionei o atributo aqui
+    pais_de_origem VARCHAR(255),
     FOREIGN KEY (tipo_arma_id) REFERENCES TipoArma(id),
     FOREIGN KEY (fabricante_arma_id) REFERENCES FabricanteArma(id)
 );
