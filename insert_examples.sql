@@ -42,7 +42,6 @@ INSERT INTO Arma (nome, tipo_arma_id, fabricante_arma_id, pais_de_origem) VALUES
 INSERT INTO Acessorio (nome, tipo_acessorio, efeito, raridade) VALUES ('Mira Holográfica', 'Mira', '+Precisão', 'Comum');
 INSERT INTO Acessorio (nome, tipo_acessorio, efeito, raridade) VALUES ('Silenciador', 'Cano', '-Ruído', 'Raro');
 INSERT INTO Acessorio (nome, tipo_acessorio, efeito, raridade) VALUES ('Laser', 'Mira', '+Precisão em curta distância', 'Incomum');
-INSERT INTO Acessorio (nome, tipo_arma_id, fabricante_arma_id, pais_de_origem) VALUES ('Empunhadura Vertical', 'Coronha', '-Recuo', 'Comum');
 INSERT INTO Acessorio (nome, tipo_acessorio, efeito, raridade) VALUES ('Carregador Ampliado', 'Carregador', '+Capacidade', 'Incomum');
 INSERT INTO Acessorio (nome, tipo_acessorio, efeito, raridade) VALUES ('Mira de Ferro', 'Mira', 'Precisão padrão', 'Comum');
 INSERT INTO Acessorio (nome, tipo_acessorio, efeito, raridade) VALUES ('Cano Longo', 'Cano', '+Alcance', 'Raro');
