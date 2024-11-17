@@ -12,7 +12,7 @@ Nathan Vespasiano - R.A.: 22.124.086-4
 
 ## Descrição do Projeto
 
-O objetivo deste projeto é criar um banco de dados para armazenar informações sobre armas do Call of Duty, permitindo consultas e análises sobre as diferentes armas disponíveis no jogo.  O banco de dados inclui informações como o nome da arma, o tipo de arma (fuzil de assalto, pistola, etc.) e o país de origem da arma.
+O objetivo deste projeto é criar um banco de dados para armazenar informações sobre armas do Call of Duty, permitindo consultas e análises sobre as diferentes armas disponíveis no jogo.  O banco de dados inclui informações como o nome da arma, o tipo de arma (fuzil de assalto, pistola, etc.), o país de origem da arma, acessórios, dentre outras informações.
 
 ## Modelo de Dados
 
