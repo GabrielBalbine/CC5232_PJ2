@@ -1,6 +1,6 @@
 # Projeto Banco de Dados - Armas do Call of Duty
 
-Este projeto implementa um banco de dados relacional para armazenar informações sobre armas do Call of Duty, incluindo seu nome, tipo e país de origem.
+Este projeto implementa um banco de dados relacional para armazenar informações sobre armas do Call of Duty, incluindo seu nome, tipo, país de origem, acessórios, fabricante, categorias, compatibilidade.
 
 ## Integrantes do Grupo
 
