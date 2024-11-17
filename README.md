@@ -106,9 +106,9 @@ Python (recomendamos versão 3.10)
 
 Crie o banco de dados: CREATE DATABASE cod_armas; (no MySQL Workbench ou terminal)
 
-Execute o script SQL: Importe o arquivo criar_tabelas.sql para o seu banco de dados.
+Execute o script SQL: Importe o arquivo query.sql para o seu banco de dados.
 
-Insira os dados: Execute os comandos INSERT presentes no arquivo inserir_dados.sql.
+Insira os dados: Execute os comandos INSERT presentes no arquivo di_geras.sql.
 
 ## Exemplos de Consultas (SQL)
 
