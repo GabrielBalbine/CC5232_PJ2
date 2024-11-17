@@ -33,7 +33,7 @@ WHERE fa.nome = 'Kalashnikov';
 SELECT ac.nome
 FROM Acessorio ac
 JOIN ArmaAcessorio aa ON ac.id = aa.acessorio_id
-WHERE aa.arma_id = (SELECT id FROM Arma WHERE nome = 'AK-47') AND aa.compativel = TRUE;
+WHERE aa.arma_id IN (SELECT id FROM Arma WHERE nome = 'AK-47') AND aa.compativel = TRUE;
 ```
 
 ## 6. Listar todas as armas de um determinado tipo e país (ex: Fuzil de Assalto da Rússia)
