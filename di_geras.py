@@ -5,7 +5,7 @@ import mysql.connector
 # Configurações do banco de dados
 mydb = mysql.connector.connect(
     host = 'localhost',
-    database = 'cod_guns',
+    database = 'cod_armas',
     user = 'root',
     password = 'master'
     database="mysql"
