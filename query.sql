@@ -1,22 +1,22 @@
 CREATE TABLE Categoria (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY auto_increment,
     nome VARCHAR(255) UNIQUE
 );
 
 CREATE TABLE TipoArma (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY auto_increment,
     nome VARCHAR(255) UNIQUE,
     categoria_id INT,
     FOREIGN KEY (categoria_id) REFERENCES Categoria(id)
 );
 
 CREATE TABLE FabricanteArma (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY auto_increment,
     nome VARCHAR(255) UNIQUE
 );
 
 CREATE TABLE Arma (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY auto_increment,
     nome VARCHAR(255),
     tipo_arma_id INT,
     fabricante_arma_id INT,
@@ -26,7 +26,7 @@ CREATE TABLE Arma (
 );
 
 CREATE TABLE Acessorio (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY auto_increment,
     nome VARCHAR(255),
     tipo_acessorio VARCHAR(255),
     efeito VARCHAR(255),
