@@ -100,6 +100,8 @@ erDiagram
 
 MySQL 8.0+ (ou outro SGBD de sua escolha)
 
+Python (recomendamos versão 3.10)
+
 ## Instalação e Execução
 
 Crie o banco de dados: CREATE DATABASE cod_armas; (no MySQL Workbench ou terminal)
