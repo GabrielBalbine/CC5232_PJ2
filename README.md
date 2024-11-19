@@ -90,7 +90,7 @@ erDiagram
     }
 
     Arma ||--|{ TipoArma : pertence_ao_tipo
-    TipoArma |--|{ Categoria : pertence_a_categoria
+    TipoArma |--| Categoria : pertence_a_categoria
     Arma ||--|{ FabricanteArma : fabricado_por
     Arma ||--|| ArmaAcessorio : possui
     Acessorio ||--|| ArmaAcessorio : acessorio_de
