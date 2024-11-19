@@ -51,6 +51,7 @@ O modelo de dados consiste em cinco entidades principais, representando informa�
     * `acessorio_id` (INT, FK, PK): Chave estrangeira referenciando a tabela `Acessorio` e parte da chave primária composta.
     * `compativel` (BOOLEAN): Indica se o acessório é compatível com a arma.
 
+## MER
 
 ## Diagrama Relacional utilizando 3NF
 
