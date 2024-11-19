@@ -108,11 +108,11 @@ Crie o banco de dados: CREATE DATABASE cod_armas; (no MySQL Workbench ou termina
 
 Execute o script SQL: Importe o arquivo query.sql para o seu banco de dados.
 
-Insira os dados: Execute os comandos INSERT presentes no arquivo good_god_queries.sql. (dados base, não aleatórios)
+Insira os dados: Execute os comandos INSERT presentes no arquivo insert.sql. (dados base, não aleatórios)
 
 Geração de dados aleatórios: Importe o arquivo di_geras.py e execute-o para gerar dados aleatórios para o Banco de Dados.
 
-Consultas interessantes: Utilize como referência o arquivo interesting_queries.md para realizar algumas consultas que nós julgamos interessantes.
+Consultas interessantes: Utilize como referência o arquivo good_god_queries.md para realizar algumas consultas que nós julgamos interessantes.
 
 Consulte a seu critério: Sinta-se a vontade também para realizar outros tipos de consulta no Banco de Dados.
 
