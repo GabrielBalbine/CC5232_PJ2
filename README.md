@@ -52,7 +52,7 @@ O modelo de dados consiste em cinco entidades principais, representando informa�
     * `compativel` (BOOLEAN): Indica se o acessório é compatível com a arma.
 
 
-## Diagrama Relacional (Mermaid)
+## Diagrama Relacional utilizando 3NF
 
 ```mermaid
 erDiagram
