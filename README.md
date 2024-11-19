@@ -89,11 +89,11 @@ erDiagram
         boolean compativel
     }
 
-    Arma ||--|{ TipoArma : pertence_ao_tipo
-    TipoArma |--| Categoria : pertence_a_categoria
-    Arma ||--|{ FabricanteArma : fabricado_por
-    Arma ||--|| ArmaAcessorio : possui
-    Acessorio ||--|| ArmaAcessorio : acessorio_de
+    Arma ||--|| TipoArma : pertence_ao_tipo
+    TipoArma ||--|| Categoria : pertence_a_categoria
+    Arma ||--|| FabricanteArma : fabricado_por
+    Arma ||--o{ ArmaAcessorio : pode_ter
+    Acessorio }o--|| ArmaAcessorio :  e_acessorio_de
 ```
 
 ## Requisitos
