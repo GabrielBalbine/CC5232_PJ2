@@ -142,9 +142,12 @@ WHERE ta.nome = 'Fuzil de Assalto';
 SELECT nome FROM Arma WHERE pais_de_origem = 'Estados Unidos';
 ````
 
+
 ## Observações
 
-Este projeto supre a uma boa parte das armas do jogo mais recente da franquia Call of Duty (Black OPS 6) e tende a ser o mais fidedigno da franquia possível. Tenha em mente que os dados gerados aleatoriamente tendem a não ter uma perpendicularidade com a realidade, então não se assuste com os resultados.
++ Este projeto supre a uma boa parte das armas do jogo mais recente da franquia Call of Duty (Black OPS 6) e tende a ser o mais fidedigno da franquia possível. Tenha em mente que os dados gerados aleatoriamente tendem a não ter uma perpendicularidade com a realidade, então não se assuste com os resultados.
+
++ Estão listadas 10 queries com fatos interessantes no arquivo [good_god_queries.md](good_god_queries.md)
 
 ## Contribuições
 
